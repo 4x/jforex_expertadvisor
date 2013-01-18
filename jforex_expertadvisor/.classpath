@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/DDS2-jClient-JForex-2.14.12.jar"/>
+	<classpathentry kind="lib" path="libs/JForex-API-2.6.45.jar" sourcepath="libs/JForex-API-2.6.45-sources.jar"/>
+	<classpathentry kind="lib" path="libs/DDS2-Connector-1.1.38.jar"/>
+	<classpathentry kind="lib" path="libs/DDS2-Charts-5.39.jar"/>
+	<classpathentry kind="lib" path="libs/greed-common-165.jar"/>
+	<classpathentry kind="lib" path="libs/dds2-common-2.3.64.jar"/>
+	<classpathentry kind="lib" path="libs/transport-client-2.3.64.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="libs/mina-core-1.1.7.jar"/>
+	<classpathentry kind="lib" path="libs/mina-filter-ssl-1.1.7dc.1.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="libs/ta-lib-0.4.4dc.jar"/>
+	<classpathentry kind="lib" path="libs/7zip-4.65.jar"/>
+	<classpathentry kind="lib" path="libs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/guava-10.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

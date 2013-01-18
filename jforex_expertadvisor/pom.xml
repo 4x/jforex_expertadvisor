@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The following is an example Maven pom file which allows the user to
+to build JForexClientLibrary by using dependencies from dukascopy public repository
+with command: mvn clean install
+-->
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.dukascopy.dds2</groupId>
+	<artifactId>JForexClientLibrary</artifactId>
+	<version>2.14.5</version>
+	<name>DUKASCOPY client library</name>
+	<description></description>
+	<organization>
+		<name>DUKASCOPY (Suisse) SA</name>
+		<url>http://www.dukascopy.com</url>
+	</organization>
+	<distributionManagement>
+		<repository>
+			<id>dc_public</id>
+			<name>Dukascopy public repository</name>
+			<url>http://www.dukascopy.com/client/jforexlib/publicrepo/</url>
+		</repository>
+	</distributionManagement>
+	<dependencies>
+		<dependency>
+			<groupId>com.dukascopy.dds2</groupId>
+			<artifactId>DDS2-jClient-JForex</artifactId>
+			<version>2.14.12</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+	</dependencies>
+</project>
